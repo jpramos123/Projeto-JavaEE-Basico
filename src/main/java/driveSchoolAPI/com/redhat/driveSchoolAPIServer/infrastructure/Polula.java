@@ -59,10 +59,10 @@ public class Polula {
 					.setCpf(1122)
 					.setIdade(18)
 					.setdataMatricula(formatoData.parse("22-02-2018"))
-					.setTipoCarta("A")
+					.setTipoCarta("B")
 					.criaAluno()));
 			
-			professorRepository.getByCpf(789).get()
+			professorRepository.getByCpf(456).get()
 			.associaAluno(
 			alunoRepository.salvaAluno(
 					new AlunoBuilder()
@@ -73,7 +73,21 @@ public class Polula {
 					.setTipoCarta("A")
 					.criaAluno()));
 
+
+			professorRepository.getByCpf(123).get()
+			.associaAluno(
+			alunoRepository.salvaAluno(
+					new AlunoBuilder()
+					.setNome("Marcia")
+					.setCpf(2233)
+					.setIdade(19)
+					.setdataMatricula(formatoData.parse("21-04-2018"))
+					.setTipoCarta("AB")
+					.criaAluno()));
+
 		}
+
+		
 		catch (ParseException e) {
 			System.out.println("Exception accours " + e);
 		}

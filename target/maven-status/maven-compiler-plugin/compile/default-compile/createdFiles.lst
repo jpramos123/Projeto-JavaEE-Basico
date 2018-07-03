@@ -1,0 +1,15 @@
+driveSchoolAPI/com/redhat/driveSchoolAPIServer/rest/ProfessorResource$1.class
+driveSchoolAPI/com/redhat/driveSchoolAPIServer/RESTConfig.class
+driveSchoolAPI/com/redhat/driveSchoolAPIServer/rest/ProfessorBuilder.class
+driveSchoolAPI/com/redhat/driveSchoolAPIServer/rest/AlunoResource$1.class
+driveSchoolAPI/com/redhat/driveSchoolAPIServer/domain/Professor.class
+driveSchoolAPI/com/redhat/driveSchoolAPIServer/infrastructure/AlunoRepository.class
+driveSchoolAPI/com/redhat/driveSchoolAPIServer/domain/Aluno.class
+driveSchoolAPI/com/redhat/driveSchoolAPIServer/domain/AutoEscola.class
+driveSchoolAPI/com/redhat/driveSchoolAPIServer/infrastructure/ProfessorRepository.class
+driveSchoolAPI/com/redhat/driveSchoolAPIServer/infrastructure/AlunoRepositoryBean.class
+driveSchoolAPI/com/redhat/driveSchoolAPIServer/infrastructure/ProfessorRepositoryBean.class
+driveSchoolAPI/com/redhat/driveSchoolAPIServer/rest/AlunoBuilder.class
+driveSchoolAPI/com/redhat/driveSchoolAPIServer/infrastructure/Polula.class
+driveSchoolAPI/com/redhat/driveSchoolAPIServer/rest/AlunoResource.class
+driveSchoolAPI/com/redhat/driveSchoolAPIServer/rest/ProfessorResource.class
